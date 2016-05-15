@@ -1,1 +1,5 @@
-{{auto-update-input value update=(action 'insertDash')}}
+{{auto-update-input value update=(action 'formatPhoneNumber')}}
+
+{{#if error}}
+  {{error}}
+{{/if}}
